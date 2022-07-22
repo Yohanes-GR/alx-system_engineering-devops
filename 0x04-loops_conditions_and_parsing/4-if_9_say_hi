@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
+# This script is displaying "Holberton School" 10 times
+# and "Hi" for the 9th iteration
 
-COUNTER=0
-while [ $COUNTER -lt 11 ]
+i=0
+while [ $i -lt 10 ]
 do
-    if [ $COUNTER = 9 ]
-    then
-        echo "Hi"
-    else
-        echo "Holberton School"
-    fi
-    let COUNTER+=1
+        echo "Best School"
+	if [ $i = 8 ]
+        then
+	    echo "Hi"
+	fi
+	(( i++ ))
 done
+
