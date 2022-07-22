@@ -6,4 +6,4 @@ until [ $i -lt 1 ]
 do
 	echo "Best School"
 	(( i-- ))
-donei
+done
